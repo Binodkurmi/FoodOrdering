@@ -52,7 +52,7 @@ const Map = () => {
           />
         )}
         <Marker position={[22.2405659, 70.8982261]}>
-          <Popup>
+          <Popup> 
             Rajkot, Pin Code: 360020, India
           </Popup>
         </Marker>
