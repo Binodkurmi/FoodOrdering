@@ -9,7 +9,7 @@ const cors = require("cors");
 
 app.use(express.json());
 app.use(cors());
-
+           
 // Database connection with MongoDB
 mongoose.connect("mongodb+srv://bkurmi504:binod008@cluster0.zuwobll.mongodb.net/myApp?retryWrites=true&w=majority", {
   useNewUrlParser: true,
