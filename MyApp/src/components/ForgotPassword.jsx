@@ -39,11 +39,12 @@ const ForgotPassword = () => {
                   <form onSubmit={handleResetPassword}>
                     <div className="form-group">
                       <label htmlFor="email">Email</label>
-                      <input
+                      <input 
+																						
                         type="email"
                         className="form-control"
                         id="email"
-                        placeholder="Enter your email"
+                        placeholder="Enter your Email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                       />
