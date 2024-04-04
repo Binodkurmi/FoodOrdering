@@ -52,8 +52,8 @@ const LoginPage = () => {
   const handleGoogleLogin = () => {
     // Handle Google login
     console.log('Logging in with Google');
-  };
-
+  };                         
+         
   return (
     <div className="login-container">
       <div className="login-content">
