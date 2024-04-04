@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family-Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-color: #F54748;
+  --dark-color: #121212;
+	--main-padding:5rem 0;
+	--mid-padding:4rem 0;
+	--padding:3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+	font-family: 'Poppins',sans-serif;
+}
+
+body {
+  background-color: #f7f6f4  !important;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 0;
+}
+
+.Nav_main {
+  background: var(--dark-color);
+}
+
+.nav-link {
+  color: #fff  ! important;
+	font-size: 1.1rem !important;
+}
+.icons i{
+	color:#fff;
+	font-size:1rem;
+}
+.icons img:hover,
+.icons i:hover{
+	transform: scale(1.05);
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+}
+.btn1{
+	border:0;
+	background: var(--primary-color);
+	color : #fff;
+	padding:0.5rem 1.5rem ;
+	border-radius: 0.5rem;
+
+}
+.navbar-nav li{
+	padding: 0 0.8rem;
+}
+.hero_main{
+	background:var(--dark-color);
+	color :#fff;
+  padding:var(--mid-padding);
+}
+.hero_main img:hover{
+  transform: scale(1.1);
+	cursor: pointer;
+	transition: 0.3s ease-in-out ;
+}
+.btn0{
+	padding: 0.8rem 1.4rem;
+	border-radius: 0.5rem;
+}
+.btn00{
+	padding: 0.8rem 1.4rem;
+	border-radius: 0.5rem;
+	background:#fff;
+	color:#030;
+	font-weight: 600;
+}
+.hero_col1 h1{
+	font-size: 3.4rem;
+	font-weight: 700;
+	
+}
+.hero-col1 p{
+	padding: 2rem;
+}
+.main_heading{
+	font-weight: 700;
+	font-size: 2.8rem;
+}
+.main_heading span{
+	color: var(--primary-color);
+
+}
+.delivery_col1{
+	margin: 0 2rem;
+	padding: 2rem;
+	/* border: 2px solid var(--primary-color); */
+	border-radius: 20px;
+	box-shadow: 0 0 40px 3px #dfdfdf;
+}
+.delivery_col1:hover{
+	cursor:pointer;
+	transform: scale(1.08);
+	transition: 0.2s ease-in-out;
+	box-shadow: 0 0 10px 3px var(--primary-color);
+
+}
+.delivery_col1 h3{
+	padding-top: 1rem;
+	font-size:1.5rem;
+}
+/* About  */
+.about_col2 h3{
+	font-size: 1.8rem;
+	color: var(--primary-color);
+
+}
+.about_col2 h1{
+	font-size:  3.2rem;
+	font-weight: 600;
+  text-transform: capitalize;
+	padding: 1rem 0;
+}
+.main_n{
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+.counter h2{
+	font-size: 2.7em;
+	font-weight: 600;
+	color: var(--primary-color);
+
+}
+/* closed About */
+
+/* recipes  */
+.Recipes_col1{
+	margin: 1rem;
+	padding :2rem 1.5rem 1rem 1.5rem;
+	box-shadow: 0 0 40px 3px #dfdfdf;
+	border-radius: 20px;
+}
+/* .Recipes{
+	/* text-align: center; */
+  /* position: relative; 
+} */
+.Recipes img{
+	width: 230px;
+	
+	/* top: -50px;
+	padding-bottom :1.5rem; 
+	position: absolute;
+*/}
+.nav-link{
+	cursor: pointer;
+}
+.Reciper_col1 h4{
+  font-size: 1.8rem;
+	font-weight: 600;
+}
+.Recipes img:hover{
+	cursor: pointer;
+
+}
+/* CSS */
+.link-container {
+  display: flex;
+  align-items: center; /* Center the content horizontally */
+}
+
+.link-container a {
+  margin-right: 1rem; /* Add some space between the links */
+  padding: 0.5rem 1rem; /* Add padding to create button-like appearance */
+  text-decoration: none; /* Remove underline */
+  color: #fcfbfb; /* Set the color of the links */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  background-color:#F54748; /* Set background color to transparent */
+  transition: all 0.3s ease; /* Add transition effect */
+}
+
+.link-container a:hover {
+  color: #fff; /* Change text color on hover */
+  
+}
+
+/* @keyframes foodie {
+  0% {
+    transform: rotate(20deg) scale(-1.05);
+  }
+  25% {
+    transform: rotate(10deg) scale(-1.1);
+  }
+  50% {
+    transform: rotate(-30deg) scale(1);
+  }
+  100% {
+    transform: rotate(-60deg) scale(1.15);
+  }
+} */
+
+.stars i{
+	color:#F5c60d;
+	font-size: 1.1rem;
+	padding-right:0.1rem;
+	
+}
+/* .btn2:hover{
+	transform: scale(1.3);
+	transition: 0.3s ease-in-out;
+	cursor:pointer ;
+} */
+.Reciper_col1 button{
+	font-weight: 500;
+	padding: 0.4rem 0.6rem;
+	border-radius: 3px;
+	color: #fff;
+	background:var(--primary-color);
+}
+.Reciper_col1 button:hover{
+	transform: scalex(1.1);
+	transition: 0.3s ease-in-out;
+	cursor:pointer ;
+}
+/* recipes  end*/
+
+/* TopCollection */
+.TopCollections img{
+	opacity: 0.95;
+
+}
+.TopCollections img:hover {
+	
+	transform: scale(1.1);
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+	opacity: 1;
+	/* box-shadow: 0 0 40px 3px var(--primary-color); */
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+	position: inherit !important;
+	margin-top: 2rem !important;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+	cursor: pointer;
+	padding: 0.4rem;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet:hover {
+ transform: scale(1.4);
+ transition: 0.3s ease-in-out;
+}  
+.swiper-pagination-bullet-active {
+	background-color: var(--primary-color) !important;
+}
+/* .swiper-pagination-bullet {
+/* end TopCollection */
+
+/* ************ */
+.testimonial{
+	cursor:pointer;
+}
+.test_col1 img{
+	border-radius: 10px;
+}
+
+/* ************ */
+.footer-color{
+	color: #fcf9f9;
+	font-size: 11px;
+
+}
+.Footer{
+	background-color: var(--dark-color);
+}
+.Footer_nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Footer_nav li{
+	padding: 0 1rem;
+	list-style: none;
+}
+
+.Footer_row{
+	border-top: 1px solid #fff;
+}
+.Collection1{
+	display: block;
+}
+.Collection2{
+	display: none;
+}
+.team_col1{
+	padding: 1rem 0;
+}
+
+
+/* ************ */
+@media only screen and (min-width:320px) and (max-width:476px) {
+  .navbar-toggler-img {
+    width: 150px;
+  }
+	.navbar-toggler-icon{
+    color: #fff;
+		font-size: 1.7rem;
+		height: auto !important;
+	}
+	.navbar-toggler{
+		padding: 0.5rem ! important;
+	}
+	.nav_main{
+		padding: 0.8rem !important;
+	}
+	.hero_col1 h1{
+		font-size: 2.2rem;
+	}
+	.hero_col2{
+		padding: 2rem;
+	}
+	.delivery_col1{
+		margin: 1rem;
+	}
+	.main_heading{
+		font-size: 1rem;
+	}
+	.about_col2{
+		padding: 2rem 0;
+	}	
+	.about_col2 h1{
+		font-size: 2.2rem;
+	}
+	.Recipes_col1{
+		margin: 1rem 0;
+	}
+	.Collection1{
+		display: none;
+	}
+	.Collection2{
+		display: block;
+	}
+	.Footer_nav{
+		padding: 0.8rem 0 !important;
+	}
+	.Footer_nav ul{
+		padding: 1rem !important;
+	}
+	.col-md-3 {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+.btn1 {
+  text-decoration: none; /* Remove underline */
+}
+
+/* ************* */

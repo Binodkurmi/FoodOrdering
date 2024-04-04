@@ -1,0 +1,81 @@
+/* SignUp.css */
+
+.signUp-container1 {
+  /* width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.login-content {
+  width: 70%;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.button-container1 {
+  width: 50%;
+  margin: 0 auto; /* Center the button horizontally */
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #F54748;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block; /* Ensure button behaves as a block-level element */
+}
+
+.label-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Add margin between label-input pairs */
+}
+
+.label-input label {
+  width: 120px; /* Adjust label width */
+  margin-right: 4px; /* Adjust margin between label and input */
+}
+
+/* Center the button */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.newAccount-container {
+  text-align: center;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.newAccount {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color */
+}
+
+.icon-button {
+  margin: 0 5px; /* Adjust margin as needed */
+  cursor: pointer;
+}

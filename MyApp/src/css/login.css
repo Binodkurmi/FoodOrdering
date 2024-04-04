@@ -1,0 +1,82 @@
+.login-container {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-content {
+  width: 40%;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.button-container {
+  width: 100%;
+	padding:0.5rem 0.5rem ;
+	border-radius: 0.5rem;
+  background-color: #F54748;
+  color: white;
+  border: none;
+  /* cursor: pointer; */
+	margin: auto;
+}
+
+/* Center the button */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.newAccount-container {
+  text-align: center;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.newAccount {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color */
+}
+
+.icon-button {
+  margin: 0 5px; /* Adjust margin as needed */
+  cursor: pointer;
+}
+
+.newAccount-container a {
+  text-decoration: none;
+	color: inherit;  /* Remove underline */
+}
+
+.newAccount-container a:hover {
+  text-decoration: underline; /* Add underline on hover */
+
+}

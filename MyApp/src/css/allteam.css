@@ -1,0 +1,63 @@
+/* Center the carousel vertically and horizontally */
+.container-team {
+	width: 80%; /* Remove quotes around the value */
+	height: auto; /* Remove quotes around the value */
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+
+
+/* Set the width and height of the carousel */
+.carousel {
+	width: 80%;
+	height: 80%;
+	position: relative;
+}
+
+/* Set the height of the carousel images */
+.carousel-inner img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover; /* Ensure the images cover the entire carousel */
+}
+
+/* Style the carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+	width: 50px; /* Adjust width as needed */
+	height: 50px; /* Adjust height as needed */
+	font-size: 1.5rem; /* Adjust font size as needed */
+	color: red; /* Arrow color */
+	background-color: rgba(0, 0, 0, 0.5); /* Control background color */
+	border: none;
+	border-radius: 50%; /* Make controls circular */
+	transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+	background-color: #F54748 ;/* Hover background color */
+}
+
+/* Style the carousel indicators */
+.carousel-indicators {
+	bottom: 10px;
+}
+
+.carousel-indicators button {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: none;
+	width: 12px;
+	height: 12px;
+	margin: 0 5px;
+	border-radius: 50%;
+	transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.carousel-indicators button.active {
+	background-color: #F54748;
+}

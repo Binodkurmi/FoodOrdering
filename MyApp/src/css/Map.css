@@ -1,0 +1,48 @@
+/* Map.css */
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Set a fixed height or adjust as needed */
+}
+
+.MapContainer {
+  width: 100%;
+  height: 70%;
+}
+
+.map-container1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.map-container1 span {
+  color: #F54748;
+	font-size: 35px; 
+	font-family:bold;
+
+}
+.map-container1 {
+  font-size: 35px; 
+	font-family:bold;
+}
+
+.map-views {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.map-views button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F54748;
+  color: #fff;
+  cursor: pointer;
+}
+
+.map-views button:hover {
+  background-color: #e70c0c;
+}

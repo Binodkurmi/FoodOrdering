@@ -1,0 +1,31 @@
+.food-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.food-item h3 {
+  margin: 0;
+}
+
+.food-item p {
+  margin: 5px 0;
+}
+
+.food-item .price {
+  font-weight: bold;
+}
+
+.food-item button {
+  background-color: #F54748;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.food-item button:hover {
+  background-color: #d43232;
+}
